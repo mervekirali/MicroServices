@@ -200,7 +200,7 @@ resource "aws_instance" "worker-2" {
         environment = "dev"
     }
 }
-
+#test
 output kube-master-ip {
   value       = aws_instance.kube-master.public_ip
   sensitive   = false
